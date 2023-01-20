@@ -33,7 +33,9 @@
   },
   "forEachSnippet": {
     "prefix": "forEachSnippet",
-    "body": [".forEach((element, index) => {$TM_SELECTED_TEXT$0});"],
+    "body": [".forEach((element, index) => {","$TM_SELECTED_TEXT$0",
+    "});"
+    ],
     "description": "forEach loop with index"
   },
   "addEventListenerSnippet": {
