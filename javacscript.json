@@ -35,5 +35,15 @@
     "prefix": "forEachSnippet",
     "body": [".forEach((element, index) => {$TM_SELECTED_TEXT$0});"],
     "description": "forEach loop with index"
+  },
+  "addEventListenerSnippet": {
+    "prefix": "addEventListener",
+    "body": [
+      ".addEventListener('submit', (event) => {",
+      "event.preventDefault();",
+      "$TM_SELECTED_TEXT$0",
+      "});"
+    ],
+    "description": "eventListener preventDefault()"
   }
 }

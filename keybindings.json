@@ -37,5 +37,11 @@
         "command": "editor.action.insertSnippet",
         "args": {"name": "forEachSnippet"},
         "when": "editorTextFocus && editorLangId == 'javascript'"
+    },
+    {
+        "key": "ctrl+shift+[Quote]",
+        "command": "editor.action.insertSnippet",
+        "args": {"name": "addEventListenerSnippet"},
+        "when": "editorTextFocus && editorLangId == 'javascript'"
     }
 ]
