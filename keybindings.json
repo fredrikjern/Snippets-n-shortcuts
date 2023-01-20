@@ -1,0 +1,41 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "f7",
+        "command": "-editor.action.diffReview.next",
+        "when": "isInDiffEditor"
+    },
+    {
+        "key": "f7",
+        "command": "-editor.action.wordHighlight.next",
+        "when": "editorTextFocus && hasWordHighlights"
+    },
+    {
+        "key": "f7",
+        "command": "workbench.action.toggleStatusbarVisibility"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "editor.action.insertSnippet",
+        "args": {"name": "console.log"},
+        "when": "editorLangId == javascript && editorTextFocus"
+    },
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "editor.action.insertSnippet",
+        "args": {"name": "querySelect"},
+        "when": "editorTextFocus && editorLangId == 'javascript'"
+    },
+    {
+        "key": "ctrl+[Quote]",
+        "command": "editor.action.insertSnippet",
+        "args": {"name": "querySelectAll"},
+        "when": "editorTextFocus && editorLangId == 'javascript'"
+    },
+    {
+        "key": "ctrl+shift+[Semicolon]",
+        "command": "editor.action.insertSnippet",
+        "args": {"name": "forEachSnippet"},
+        "when": "editorTextFocus && editorLangId == 'javascript'"
+    }
+]
